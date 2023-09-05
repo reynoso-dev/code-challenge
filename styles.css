@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: antiquewhite;
+    text-align: center;
+}
+
+h1{
+    font-size: large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#registroForm{
+    border: 1px solid antiquewhite;
+    border-radius: 30px;
+}
+
+#registroForm input{
+    background-color: none;
+    outline: none;
+
+}
+
+#registroForm label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+}
+
+#registroForm #btnEnviar{
+    color: blueviolet;
+    font-size: 15px;
+    background-color: azure;
+    border-radius: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 6px;
+    transition: 0.5s;
+}
+
+#registroForm #btnEnviar:hover{
+    transform:scale(1.2);
+}
+
+
